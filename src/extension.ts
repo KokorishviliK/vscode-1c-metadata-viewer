@@ -27,7 +27,7 @@ export function activate(context: vscode.ExtensionContext) {
 		OpenFile(filePath);
 	});
 	vscode.commands.registerCommand('metadataViewer.openForm', (node: TreeItem) => {
-		const filePath = node.path + '/Ext/Form/Module.bsl';
+		const filePath = node.path + '/Module.bsl';
 		OpenFile(filePath);
 	});
 	vscode.commands.registerCommand('metadataViewer.openModule', (node: TreeItem) => {
